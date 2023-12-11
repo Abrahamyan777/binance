@@ -1,0 +1,265 @@
+.roadmapWrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+.roadmapContainer {
+    width: 100%;
+    padding: 96px 17% 130px 17%;
+}
+.radmapContainerInner{
+    width: 100%;
+}
+.roadmapHeader {
+    display: flex;
+    justify-content: center;
+}
+.roadmapHeader > div {
+    width: 200px;
+    height: 92px;
+    background-image: url("../../../images/images3333.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.roadmapHeader > h4 {
+    margin-left: 15px;
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    color: #292929;
+}
+.info {
+    padding-top: 16px;
+}
+.info article {
+    height: 308px;
+    margin-top: 24px;
+    background: #F5F5F5;
+    border-bottom: 4px solid #fccb09;
+    transition: 1.5s;
+    transform: translateY(125px);
+    opacity: 0;
+}
+.info > article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #292929;
+    margin-bottom: 8px;
+}
+.text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #292929;
+}
+/* article 1 blok start   */
+.article_1>.leftInfo_1 {
+    width: 62%;
+    height: 58%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.article_1 > .rightInfo_1 {
+    width: 55%;
+    height: 60%;
+    background-image: url("../../../images/dark1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+/* article 1 blok end   */
+
+/* article 2 blok start   */
+.article_2 >.rightInfo_2 {
+    width: 30%;
+    height: 58%;
+    background-image: url("../../../images/deck2.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.article_2 > .leftInfo_2 {
+    width: 62%;
+    height: 58%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* article 2 blok end   */
+
+/* article 3 blok start   */
+.article_3 >.rightInfo_3 {
+    width: 19%;
+    height: 58%;
+    background-image: url("../../../images/desk3.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.article_3 > .leftInfo_3 {
+    width: 62%;
+    height: 58%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* article 3 blok end   */
+
+/* article 4 blok start   */
+.article_4 >.rightInfo_4 {
+    width: 19%;
+    height: 58%;
+    background-image: url("../../../images/dark4.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.article_4 > .leftInfo_4 {
+    width: 62%;
+    height: 58%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* article 4 blok end   */
+@media (max-width: 1024px){
+    .roadmapContainer {
+        padding: 56px 15% 110px 15%;
+    }
+    .title {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 26px;
+        color: #292929;
+        margin-bottom: 5px;
+    }
+    .text{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        color: #292929;
+    }
+    .roadmapHeader > h4 {
+        padding-top: 10px;
+        font-size: 55px;
+        line-height: 68px;
+    }
+    .roadmapHeader > div {
+        width: 180px;
+        height: 88px;
+    }
+}
+
+@media (max-width: 767px){
+    .roadmapContainer {
+        padding: 46px 14% 80px 14%;
+    }
+    .roadmapHeader > div {
+        width: 160px;
+        height: 80px;
+    }
+    .text{
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 17px;
+        color: #292929;
+    }
+    .title {
+        font-size: 15px;
+        line-height: 23px;
+        margin-bottom: 4px;
+    }
+    .roadmapHeader {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .roadmapHeader > h4 {
+        padding-top: 0;
+        margin-left: 0;
+        font-size: 45px;
+        line-height: 60px;
+    }
+
+    .info > article {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .full > .leftInfo_1,  .full > .leftInfo_2,  .full > .leftInfo_3, .full > .leftInfo_4 {
+        width: 100%;
+        height: 40%;
+    }
+    .full > .rightInfo_1,  .full > .rightInfo_2,  .full > .rightInfo_3, .full > .rightInfo_4 {
+        width: 40%;
+    }
+    .full > .leftInfo_2 , .full > .leftInfo_4 {
+        order: 1;
+    }
+    .full >.rightInfo_2, .full > .rightInfo_4{
+        order: 2;
+    }
+    .info  >.respons{
+        align-items: flex-start !important;
+    }
+
+}
+
+@media (max-width: 500px){
+    .roadmapContainer {
+        padding: 26px 12% 45px 12%;
+    }
+    .full > .leftInfo_1,  .full > .leftInfo_2,  .full > .leftInfo_3, .full > .leftInfo_4 {
+        width: 100%;
+        height: 45%;
+    }
+    .full > .rightInfo_1,  .full > .rightInfo_2,  .full > .rightInfo_3, .full > .rightInfo_4 {
+        width: 40%;
+        height: 48%;
+    }
+}
+
+@media (max-width: 350px){
+    .roadmapContainer {
+        padding: 16px 10% 30px 10%;
+    }
+    .text{
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .title {
+        font-size: 13px;
+        line-height: 20px;
+        margin-bottom: 4px;
+    }
+    .roadmapHeader > h4 {
+        padding-top: 0;
+        margin-left: 0;
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .full > .leftInfo_1,  .full > .leftInfo_2,  .full > .leftInfo_3, .full > .leftInfo_4 {
+        width: 100%;
+        height: 53%;
+    }
+    .full > .rightInfo_1,  .full > .rightInfo_2,  .full > .rightInfo_3, .full > .rightInfo_4 {
+        width: 40%;
+        height: 38%;
+    }
+}
+
+
+
+

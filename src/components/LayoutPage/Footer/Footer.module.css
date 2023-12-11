@@ -1,0 +1,242 @@
+footer {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #272727;
+    color: white;
+    height: 70vh;
+    border-bottom: 8px solid #fccb09;
+}
+.footerContainer {
+    width: 100%;
+    height: 100%;
+    padding: 0 8%;
+}
+.footerWrapperInner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.leftBlock {
+    width: 50%;
+    height: 100%;
+}
+.rightBlock {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.topBlock {
+    height: 75%;
+    display: flex;
+    padding: 20px 0;
+}
+.bottomBlock {
+    height: 25%;
+}
+.bottomTitle {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+}
+.bottomBlock>span {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    cursor: pointer;
+}
+.bottomBlock>span:nth-child(3) {
+    margin-left: 10px;
+}
+.leftMenu {
+    width: 45%;
+    height: 100%;
+}
+.rightMenu {
+    width: 45%;
+    height: 100%;
+}
+.leftMenu ul {
+    list-style: none;
+}
+.leftMenu ul li {
+    margin-bottom: 24px;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+.leftMenu ul li:hover {
+    color: #fccb09;
+}
+.rightMenu ul {
+    list-style: none;
+}
+.rightMenu ul li {
+    margin-bottom: 24px;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.rightMenu ul li:hover {
+    color: #fccb09;
+}
+.footerLogo {
+    height: 30%;
+    width: 55%;
+    background-image: url("../../../images/vec.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.platformFooter {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+.menuIcon {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: flex-end;
+}
+.menuIconInner {
+    width: 100%;
+    height: 40%;
+}
+.menuIconInner ul {
+    list-style: none;
+    display: flex;
+    display: flex;
+    justify-content: flex-end;
+}
+.menuIconInner ul li {
+    margin-left: 15px;
+    font-size: 26px;
+}
+.menuIcon ul li:hover {
+    color: #fccb09;
+}
+@media (max-width: 1024px) {
+    .footerContainer {
+        padding: 3% 8%;
+    }
+    .footerWrapperInner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .topBlock {
+        height: 75%;
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+    }
+    .rightMenu ul li {
+        margin-bottom: 10px;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .leftMenu ul li {
+        margin-bottom: 10px;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .leftBlock {
+        width: 85%;
+        height: 50%;
+    }
+    .rightBlock {
+        width: 85%;
+        height: 50%;
+        align-items: flex-start;
+    }
+    .menuIconInner ul {
+        justify-content: flex-start;
+    }
+    .menuIcon {
+        width: 100%;
+        height: 40%;
+    }
+    .menuIcon {
+        align-items: start;
+    }
+    .menuIconInner ul li {
+        margin-left: 0;
+        margin-right: 12px;
+        font-size: 24px;
+    }
+}
+@media (max-width: 650px) {
+    .leftMenu ul li {
+        margin-bottom: 10px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .rightMenu ul li {
+        margin-bottom: 10px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .menuIconInner ul li {
+        margin-left: 0;
+        margin-right: 10px;
+        font-size: 20px;
+    }
+    .topBlock {
+        height: 65%;
+        padding: 15px 0;
+    }
+    .leftMenu ul li {
+        margin-bottom: 5px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .rightMenu ul li {
+        margin-bottom: 5px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+}
+@media (max-width: 450px) {
+    .leftMenu ul li {
+        margin-bottom: 5px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .rightMenu ul li {
+        margin-bottom: 5px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .topBlock {
+        height: 55%;
+        padding: 12px 0;
+    }
+    .bottomTitle {
+        font-size: 11px;
+        line-height: 20px;
+    }
+}
+@media (max-width: 300px) {
+
+    .leftMenu ul li {
+        margin-bottom: 3px;
+        font-size: 10px;
+        line-height: 10px;
+    }
+    .rightMenu ul li {
+        margin-bottom: 3px;
+        font-size: 10px;
+        line-height: 10px;
+    }
+    .menuIconInner ul li {
+        margin-left: 0;
+        margin-right: 6px;
+        font-size: 16px;
+    }
+}

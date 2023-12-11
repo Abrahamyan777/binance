@@ -1,0 +1,172 @@
+.homeBlok1Wrapper {
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+    background-image: url("../../../images/20..jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: left 2s linear normal;
+}
+@keyframes left {
+    0%{
+        /* background-position: -450px; */
+        background-position-y: -200px;
+        opacity: 0;
+    }
+    100%{
+        /* background-position: center; */
+        background-position: center;
+        opacity: 1;
+    }
+}
+.homeBlok1Container{
+    width: 100%;
+    padding: 0 9%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    animation: hero 2s linear normal;
+}
+@keyframes hero {
+    0%{
+        width: 65%;
+        opacity: 0;
+    }
+    100%{
+        width: 100%;
+        opacity: 1;
+    }
+}
+.homeBlok1WrapperInner{
+    width: 90%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.homeLeft {
+    height: 100%;
+    width: 55%;
+}
+.homeRight {
+    height: 100%;
+    width: 22%;
+}
+.homeLogo,
+.homeCrypto,
+.homeJoin {
+    width: 100%;
+    height: 33.3%;
+}
+.homeLogo {
+    width: 71%;
+    background-image: url("../../../images/vec.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.homeCrypto h4 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 72px;
+    color: #292929;
+}
+.homeJoin {
+    display: flex;
+    align-items: center;
+}
+.homeButton {
+    width: 264px;
+    height: 56px;
+    padding: 14px 32px;
+    background: #FCD535;
+    border-radius: 32px;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 28px;
+    color: #000;
+    cursor: pointer;
+    border: none;
+}
+.homeRight {
+    background-image: url("../../../images/b.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+@media (max-width: 1024px){
+    .homeBlok1Wrapper {
+        height: 90vh;
+    }
+    .homeBlok1WrapperInner{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 70%;
+    }
+    .homeLeft{
+        order: 2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .homeRight {
+        width: 30%;
+    }
+    .homeCrypto h4{
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 62px;
+    }
+    .homeRight{
+        order: 1;
+    }
+    .homeJoin{
+        justify-content: center;
+    }
+    .homeButton{
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+@media (max-width: 645px){
+    .homeBlok1Wrapper {
+        height: 85vh;
+    }
+    .homeBlok1Wrapper {
+        height: 85vh;
+    }
+    .homeCrypto h4{
+        font-size: 20px;
+        line-height: 55px;
+    }
+}
+@media (max-width: 325px){
+    .homeBlok1Wrapper {
+        height: 80vh;
+    }
+    .homeCrypto h4{
+        font-size: 16px;
+        line-height: 45px;
+    }
+    .homeButton{
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+@media (max-width: 245px) {
+    .homeCrypto h4{
+        font-size: 12px;
+        line-height: 35px;
+    }
+    .homeButton{
+        font-size: 10px;
+        line-height: 8px;
+    }
+}

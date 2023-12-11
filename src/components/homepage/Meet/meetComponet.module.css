@@ -1,0 +1,180 @@
+.meetWrapper {
+    width: 100%;
+    margin: 0 auto;
+    background: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.meetContainer {
+    width: 100%;
+    padding: 7% 14% 8.5% 14%;
+}
+
+.meetContainerInner {
+    width: 100%;
+}
+
+.meetHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.meetlogoContainer {
+    display: flex;
+    justify-content: center;
+    gap: 4%;
+}
+
+.meetlogoContainer>span {
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 72px;
+}
+
+.meetlogoContainer>div {
+    width: 196px;
+    background-image: url("../../../images/eco.avif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.meetText {
+    text-align: center;
+}
+
+.meetText p {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 42px;
+    padding-top: 24px;
+}
+
+.meetFooter {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+
+.meetFooter>article {
+    flex-basis: 262px;
+    height: 402px;
+    border-bottom: 4px solid #fccb09;
+    border-radius: 3px;
+    background-color: white;
+    transition: 1.5s;
+    transform: translateY(125px);
+    opacity: 0;
+
+}
+
+
+.footerLogo {
+    width: 180px;
+    height: 123px;
+    margin: 32px auto;
+    background-image: url("../../../images/123.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.info {
+    text-align: center;
+}
+
+.info>h3 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #292929;
+    margin-bottom: 8px;
+}
+
+.info>p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #292929;
+    padding: 0 30px;
+}
+
+@media screen and (max-width: 1024px) {
+    .meetContainer {
+        padding: 5% 12% 6.5% 12%;
+    }
+
+    .meetText p {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .meetFooter {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10%;
+    }
+
+    .meetFooter>article {
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 645px) {
+    .meetText p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
+
+@media (max-width: 445px) {
+    .meetlogoContainer>span {
+        font-weight: 400;
+        font-size: 53px;
+        line-height: 60px;
+    }
+}
+
+@media (max-width: 380px) {
+    .meetlogoContainer>span {
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 57px;
+    }
+}
+
+@media (max-width: 300px) {
+    .meetlogoContainer>span {
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 52px;
+    }
+
+    .info>p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        padding: 0 20px;
+    }
+
+}
+
+@media (max-width: 235px) {
+    .meetlogoContainer>span {
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 48px;
+    }
+
+    .info>p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 14px;
+        padding: 0 15px;
+    }
+}
