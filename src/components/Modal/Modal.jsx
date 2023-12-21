@@ -14,16 +14,16 @@ const Modal = (props) => {
                 <div className={css.menuBody}>
                     <ul>
                         <li >
-                            <NavLink to='login' >Buy Crypto</NavLink>
+                            <NavLink to='/binance/' >Buy Crypto</NavLink>
                         </li>
                         <li>
-                            <NavLink to='Registration' >Finance</NavLink>
+                            <NavLink to='/binance/' >Finance</NavLink>
                         </li>
                         <li>
-                            <NavLink to='cGet' >Wallet</NavLink>
+                            <NavLink to='/binance/' >Wallet</NavLink>
                         </li>
                         <li>
-                            <NavLink to='cSave' >Cryptocurrency</NavLink>
+                            <NavLink to='/binance/' >Cryptocurrency</NavLink>
                         </li>
                     </ul>
                 </div>

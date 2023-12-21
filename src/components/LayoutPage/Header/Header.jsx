@@ -24,7 +24,7 @@ const Header = () => {
             <div className={css.headerContainer}>
                 <div className={css.header_wrapper}>
                     <div className={css.logoWrapper}>
-                        <NavLink to="/">
+                        <NavLink to="/binance/">
                             <div className={css.logoContainer}>
                                 <div>
                                     <div className={css.vec}></div>
@@ -37,16 +37,16 @@ const Header = () => {
                             <nav className={css.navWrapper}>
                                 <ul className={css.list_table}>
                                     <li className={css.list_item}>
-                                        <NavLink to='/'>Buy Crypto</NavLink>
+                                        <NavLink to='/binance/'>Buy Crypto</NavLink>
                                     </li>
                                     <li>
-                                        <NavLink to='/'>Finance</NavLink>
+                                        <NavLink to='/binance/'>Finance</NavLink>
                                     </li>
                                     <li>
-                                        <NavLink to='/'>Wallet</NavLink>
+                                        <NavLink to='/binance/'>Wallet</NavLink>
                                     </li>
                                     <li>
-                                        <NavLink to='/'>Cryptocurrency</NavLink>
+                                        <NavLink to='/binance/'>Cryptocurrency</NavLink>
                                     </li>
                                 </ul>
                             </nav>
