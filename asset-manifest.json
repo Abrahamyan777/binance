@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/binance/static/css/main.f608b4ca.css",
-    "main.js": "/binance/static/js/main.cc6f77ac.js",
+    "main.css": "/binance/static/css/main.e765213c.css",
+    "main.js": "/binance/static/js/main.fbb49b18.js",
     "static/js/787.69859e86.chunk.js": "/binance/static/js/787.69859e86.chunk.js",
     "static/media/20..jpg": "/binance/static/media/20..b8ad5b8572bc90ac8ddc.jpg",
     "static/media/dark1.png": "/binance/static/media/dark1.4497255ca76614eeff4e.png",
     "static/media/eco.avif": "/binance/static/media/eco.76a60672f8375d8d302c.avif",
     "static/media/dark4.png": "/binance/static/media/dark4.512dd58225483407c2af.png",
-    "static/media/desk3.svg": "/binance/static/media/desk3.1e861d66c5c4909c47ec.svg",
-    "static/media/vec.svg": "/binance/static/media/vec.670dc316ceab1c447167.svg",
+    "static/media/desk3.svg": "/binance/static/media/desk3.da91acdb590a2c01ba56.svg",
+    "static/media/vec.svg": "/binance/static/media/vec.4b67f88031d0e5e2d656.svg",
     "index.html": "/binance/index.html",
-    "main.f608b4ca.css.map": "/binance/static/css/main.f608b4ca.css.map",
-    "main.cc6f77ac.js.map": "/binance/static/js/main.cc6f77ac.js.map",
+    "main.e765213c.css.map": "/binance/static/css/main.e765213c.css.map",
+    "main.fbb49b18.js.map": "/binance/static/js/main.fbb49b18.js.map",
     "787.69859e86.chunk.js.map": "/binance/static/js/787.69859e86.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f608b4ca.css",
-    "static/js/main.cc6f77ac.js"
+    "static/css/main.e765213c.css",
+    "static/js/main.fbb49b18.js"
   ]
 }
